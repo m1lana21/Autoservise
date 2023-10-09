@@ -18,3 +18,30 @@ D:\ucheba\РПМ\3\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.Co
 D:\ucheba\РПМ\3\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.exe
 D:\ucheba\РПМ\3\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.pdb
 D:\ucheba\РПМ\3\AkhmerovaAutoservice\obj\Debug\App.baml
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\AkhmerovaAutoservice.exe.config
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\AkhmerovaAutoservice.exe
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\AkhmerovaAutoservice.pdb
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\EntityFramework.dll
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\EntityFramework.SqlServer.dll
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\EntityFramework.xml
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\EntityFramework.SqlServer.xml
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\bin\Debug\ru\EntityFramework.resources.dll
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.AssemblyReference.cache
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AddEditPage.g.cs
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\MainWindow.g.cs
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\ServicePage.g.cs
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\App.g.cs
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice_Content.g.cs
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice_MarkupCompile.cache
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice_MarkupCompile.lref
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\App.baml
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AddEditPage.baml
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\MainWindow.baml
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\ServicePage.baml
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.g.resources
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.Properties.Resources.resources
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.GenerateResource.cache
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.CoreCompileInputs.cache
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.CopyComplete
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.exe
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.pdb

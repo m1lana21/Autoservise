@@ -23,6 +23,8 @@ namespace AkhmerovaAutoservice
         public ServicePage()
         {
             InitializeComponent();
+            var currentServices = Entities.GetContext().Service.ToList();
+            ServiceListView.ItemsSource = currentServices;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
