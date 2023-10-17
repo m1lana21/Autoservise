@@ -120,6 +120,21 @@ namespace AkhmerovaAutoservice
                             Ifupdate = false;
                         }
                         break;
+                    case 2:
+                        if (CurrentPage < CountPage - 1)
+                        {
+                            CurrentPage++;
+                            min = CurrentPage * 10 + 10 < CountRecords ? CurrentPage * 10 + 10 : CountRecords;
+                            for(int i = CurrentPage * 10; i < min; i++)
+                            {
+                                CurrentPageList.Add(TableList[i]);
+                            }
+                        }
+                        else
+                        {
+                            Ifupdate = false;
+                        }
+                        break;
                 }
             }
             if (Ifupdate)
@@ -180,6 +195,7 @@ namespace AkhmerovaAutoservice
             {
                 Entities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
                 ServiceListView.ItemsSource = Entities.GetContext().Service.ToList();
+                UpdateServices();
             }
         }
 
@@ -212,17 +228,17 @@ namespace AkhmerovaAutoservice
 
         private void LeftDirButton_Click(object sender, RoutedEventArgs e)
         {
-            ChangePage(0, Convert.ToInt32(PageListBox.SelectedItem.ToString()) - 1);
+            ChangePage(1,null);
         }
 
         private void RightDirButton_Click(object sender, RoutedEventArgs e)
         {
-            ChangePage(1, null);
+            ChangePage(2, null);
         }
 
         private void PageListBox_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            ChangePage(2, null);
+            ChangePage(0, Convert.ToInt32(PageListBox.SelectedItem.ToString()) - 1);
         }
     }
 }
