@@ -20,7 +20,6 @@ namespace AkhmerovaAutoservice
         {
             if (_context == null)
                 _context = new Entities();
-
             return _context;
         }
         public Entities()

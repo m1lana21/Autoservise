@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="b1ffeceecd354708a9e0c112d5d4052e" Name="Diagram1">
+      <Diagram DiagramId="cc49ffd57e444457835940c87f6fdae7" Name="Diagram1">
         <EntityTypeShape EntityType="Model.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
         <EntityTypeShape EntityType="Model.ClientService" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
         <EntityTypeShape EntityType="Model.DocumentByService" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
@@ -24,7 +24,7 @@
         <AssociationConnector Association="Model.FK_Product_Manufacturer" ManuallyRouted="false" />
         <AssociationConnector Association="Model.FK_ProductPhoto_Product" ManuallyRouted="false" />
         <AssociationConnector Association="Model.FK_ProductSale_Product" ManuallyRouted="false" />
-        <AssociationConnector Association="Model.FK_ServicePhoto_service_a_import" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ServicePhoto_Service" ManuallyRouted="false" />
         <AssociationConnector Association="Model.AttachedProduct" ManuallyRouted="false" />
         <AssociationConnector Association="Model.TagOfClient" ManuallyRouted="false" />
       </Diagram>

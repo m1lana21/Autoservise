@@ -91,11 +91,11 @@
         <MappingFragment StoreEntitySet="Service">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="MainImagePath" ColumnName="MainImagePath" />
           <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
           <ScalarProperty Name="Description" ColumnName="Description" />
           <ScalarProperty Name="Discount" ColumnName="Discount" />
-          <ScalarProperty Name="MainImagePath" ColumnName="MainImagePath" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -45,3 +45,5 @@ D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\Akhmerov
 D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.CopyComplete
 D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.exe
 D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.pdb
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\SignUpPage.g.cs
+D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\SignUpPage.baml

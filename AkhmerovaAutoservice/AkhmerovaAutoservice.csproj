@@ -117,6 +117,9 @@
     <Compile Include="ServicePhoto.cs">
       <DependentUpon>AkhmerovaModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="SignUpPage.xaml.cs">
+      <DependentUpon>SignUpPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tag.cs">
       <DependentUpon>AkhmerovaModel.tt</DependentUpon>
     </Compile>
@@ -137,6 +140,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ServicePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SignUpPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -186,16 +193,6 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AkhmerovaModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>AkhmerovaModel.Context.cs</LastGenOutput>
-      <DependentUpon>AkhmerovaModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="AkhmerovaModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>AkhmerovaModel.edmx</DependentUpon>
-      <LastGenOutput>AkhmerovaModel.cs</LastGenOutput>
-    </Content>
     <Resource Include="Услуги автосервиса\picture.png" />
     <Resource Include="Услуги автосервиса\diz.jpg" />
     <Resource Include="Услуги автосервиса\rulevoe-upravlenie-avtomobilya.jpg" />
@@ -218,6 +215,17 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="AkhmerovaModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AkhmerovaModel.edmx</DependentUpon>
+      <LastGenOutput>AkhmerovaModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AkhmerovaModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AkhmerovaModel.edmx</DependentUpon>
+      <LastGenOutput>AkhmerovaModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
