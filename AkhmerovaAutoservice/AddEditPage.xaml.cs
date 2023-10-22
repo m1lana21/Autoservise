@@ -64,9 +64,17 @@ namespace AkhmerovaAutoservice
             }
             var allServices = Entities.GetContext().Service.ToList();
             allServices = allServices.Where(p => p.Title == _currentService.Title).ToList();
-            if (!IsEditing)
+            if (IsEditing)
             {
-                if (allServices.Count != 0)
+                if (allServices.Count == 2)
+                {
+                    MessageBox.Show("Уже существует такая услуга");
+                    return;
+                }
+            }
+            else
+            {
+                if (allServices.Count == 1)
                 {
                     MessageBox.Show("Уже существует такая услуга");
                     return;
