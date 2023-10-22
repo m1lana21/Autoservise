@@ -21,10 +21,16 @@ namespace AkhmerovaAutoservice
     public partial class AddEditPage : Page
     {
         private Service _currentService = new Service();
+        bool IsEditing = false;
+        private string oldName;
         public AddEditPage(Service SelectedService)
         {
             InitializeComponent();
-            if (SelectedService != null) _currentService = SelectedService;
+            if (SelectedService != null)
+            {
+                _currentService = SelectedService;
+                IsEditing = true;
+            }
             DataContext = _currentService;
         }
 
@@ -46,10 +52,8 @@ namespace AkhmerovaAutoservice
             if (string.IsNullOrWhiteSpace(s1))
                 errors.AppendLine("Укажите длительность услуги");
 
-            if (_currentService.Duration > 240)
-                errors.AppendLine("Длительность не может быть больше 240 минут");
-            if (_currentService.Duration < 0)
-                errors.AppendLine("Длительность не может быть меньше 0 минут");
+            if (_currentService.Duration > 240 || _currentService.Duration < 0)
+                errors.AppendLine("Длительность не может быть больше 240 минут или меньше 0 минут");
             if (_currentService.Discount < 0 || _currentService.Discount > 100)
                 errors.AppendLine("Укажите скидку от 0 до 100");
 
@@ -60,33 +64,34 @@ namespace AkhmerovaAutoservice
             }
             var allServices = Entities.GetContext().Service.ToList();
             allServices = allServices.Where(p => p.Title == _currentService.Title).ToList();
-            if (allServices.Count == 0)
+            if (!IsEditing)
             {
-                if (_currentService.ID == 0)
-                    Entities.GetContext().Service.Add(_currentService);
-                try
+                if (allServices.Count != 0)
                 {
-                    Entities.GetContext().SaveChanges();
-                    MessageBox.Show("информация сохранена");
-                    Manager.MainFrame.GoBack();
-                }
-                catch(Exception ex)
-                {
-                    MessageBox.Show(ex.Message.ToString());
+                    MessageBox.Show("Уже существует такая услуга");
+                    return;
                 }
             }
+            if (errors.Length > 0)
+            {
+                MessageBox.Show(errors.ToString());
+                return;
+            }
             if (_currentService.ID == 0)
+            {
                 Entities.GetContext().Service.Add(_currentService);
+            }
             try
             {
                 Entities.GetContext().SaveChanges();
                 MessageBox.Show("Информация сохранена");
                 Manager.MainFrame.GoBack();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message.ToString());
             }
+
         }
     }
 }

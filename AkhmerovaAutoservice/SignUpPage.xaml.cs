@@ -68,24 +68,37 @@ namespace AkhmerovaAutoservice
         private void TBStart_TextChanged(object sender, TextChangedEventArgs e)
         {
             string s = TBStart.Text;
-            string filteredText=new string(s.Where(c=>char.IsDigit(c) || c==':')).ToArray());
+            string filteredText = new string(s.Where(c => char.IsDigit(c) || c == ':').ToArray());
             if (s != filteredText)
             {
                 TBEnd.Text = "";
                 TBStart.Text = TBStart.Text.Substring(TBStart.Text.Length);
                 return;
             }
-            if (s.Length < 3 || !s.Contains(':'))
-                TBEnd.Text = "";
+            if (s.Length < 5 || !s.Contains(':'))
+                return;
             else
             {
                 string[] start = s.Split(new char[] { ':' });
                 int startHour = Convert.ToInt32(start[0].ToString()) * 60;
                 int startMin = Convert.ToInt32(start[1].ToString());
+                if (startHour / 60 > 23 || startMin > 59)
+                {
+                    MessageBox.Show("Введите действительное время");
+                    TBStart.Clear();
+                    return;
+                }
                 int sum = startHour + startMin + _currentService.Duration;
                 int EndHour = sum / 60;
+                if (EndHour >= 24) EndHour -= 24;
                 int EndMin = sum % 60;
-                s = EndHour.ToString() + ":" + EndMin.ToString();
+                s = EndHour.ToString() + ":";
+                if (EndMin == 0)
+                    s += "00";
+                else if (EndMin > 0 && EndMin < 10)
+                    s = s + '0' + EndMin;
+                else
+                    s += EndMin.ToString();
                 TBEnd.Text = s;
             }
         }

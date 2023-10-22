@@ -11,6 +11,7 @@ namespace AkhmerovaAutoservice
 {
     using System;
     using System.Collections.Generic;
+    using System.Windows.Media;
     
     public partial class Service
     {
@@ -33,7 +34,6 @@ namespace AkhmerovaAutoservice
         public virtual ICollection<ClientService> ClientService { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ServicePhoto> ServicePhoto { get; set; }
-
         public string OldCost
         {
             get
@@ -54,11 +54,26 @@ namespace AkhmerovaAutoservice
             {
                 if (Discount > 0)
                 {
-                    return ((decimal)Cost - (decimal)Cost * (decimal)Discount / 100);
+                    return ((decimal)(Cost) - (decimal)Cost * (decimal)Discount / 100);
                 }
                 else
                 {
                     return (decimal)Cost;
+                }
+            }
+        }
+
+        public SolidColorBrush FonStyle
+        {
+            get
+            {
+                if (Discount > 0)
+                {
+                    return (SolidColorBrush)new BrushConverter().ConvertFromString("LightGreen");
+                }
+                else
+                {
+                    return (SolidColorBrush)new BrushConverter().ConvertFromString("White");
                 }
             }
         }

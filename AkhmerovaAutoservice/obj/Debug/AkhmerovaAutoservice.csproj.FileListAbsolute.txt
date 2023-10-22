@@ -47,3 +47,32 @@ D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\Akhmerov
 D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.pdb
 D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\SignUpPage.g.cs
 D:\3 Курс\ИСП-31\ахмерова\AkhmerovaAutoservice\obj\Debug\SignUpPage.baml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\AkhmerovaAutoservice.exe.config
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\AkhmerovaAutoservice.exe
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\AkhmerovaAutoservice.pdb
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\EntityFramework.dll
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\EntityFramework.SqlServer.dll
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\EntityFramework.xml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\EntityFramework.SqlServer.xml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\bin\Debug\ru\EntityFramework.resources.dll
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.AssemblyReference.cache
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AddEditPage.g.cs
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\MainWindow.g.cs
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\ServicePage.g.cs
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\SignUpPage.g.cs
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\App.g.cs
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice_Content.g.cs
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice_MarkupCompile.cache
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice_MarkupCompile.lref
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\App.baml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AddEditPage.baml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\MainWindow.baml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\ServicePage.baml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\SignUpPage.baml
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.g.resources
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.Properties.Resources.resources
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.GenerateResource.cache
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.CoreCompileInputs.cache
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.csproj.CopyComplete
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.exe
+D:\ucheba\РПМ\8\AkhmerovaAutoservice\obj\Debug\AkhmerovaAutoservice.pdb
